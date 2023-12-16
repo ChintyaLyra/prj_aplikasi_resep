@@ -44,13 +44,13 @@ class ItemCard extends StatelessWidget {
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
             ),
-            // Padding(
-            //   padding: const EdgeInsets.only(left: 16, bottom: 8),
-            //   child: Text(
-            //     resep.bumbu,
-            //     style: TextStyle(fontSize: 12),
-            //   ),
-            // )
+            Padding(
+              padding: const EdgeInsets.only(left: 16, bottom: 8),
+              child: Text(
+                resep.asal,
+                style: TextStyle(fontSize: 12),
+              ),
+            )
           ],
         ),
       ),
